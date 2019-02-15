@@ -9,7 +9,7 @@ class Transfer
   end 
   
   def valid?
-    if @sender.valid? == true && @reciver.valid? == true && @sender.balance >= @amount 
+    if @sender.valid? == true && @receiver.valid? == true && @sender.balance >= @amount 
      return true 
    else 
      return false 
