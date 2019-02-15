@@ -27,6 +27,7 @@ class Transfer
       end
   end 
   def reverse_transfer
-    if status
+    if status @status == "complete"
+      
   end 
 end
